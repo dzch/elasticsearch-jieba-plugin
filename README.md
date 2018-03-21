@@ -32,13 +32,13 @@ gradle pz
 - copy the zip file to plugin directory
 
 ```shell
-cp build/distributions/elasticsearch-jieba-plugin-5.1.2.zip ${path.home}/plugins
+cp build/distributions/elasticsearch-jieba-plugin-${ver}.zip ${path.home}/plugins
 ```
 - unzip and rm zip file
 
 ```shell
-unzip elasticsearch-jieba-plugin-5.1.2.zip
-rm elasticsearch-jieba-plugin-5.1.2.zip
+unzip elasticsearch-jieba-plugin-${ver}.zip
+rm elasticsearch-jieba-plugin-${ver}.zip
 ```
 - start elasticsearch
 
