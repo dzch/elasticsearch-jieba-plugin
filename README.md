@@ -1,17 +1,11 @@
 # elasticsearch-jieba-plugin
-jieba analysis plugin for elasticsearch: ***6.0.0***, ***5.4.0***, ***5.3.0***, ***5.2.2***, ***5.2.1***, ***5.2.0***, ***5.1.2***, ***5.1.1***
-
-
-### 新分词支持
-
-- [thulac分词ES插件](https://github.com/microbun/elasticsearch-thulac-plugin)， [thulac官网](http://thulac.thunlp.org/)
+jieba analysis plugin for elasticsearch: ***5.4.0***, ***5.3.0***, ***5.2.2***, ***5.2.1***, ***5.2.0***, ***5.1.2***, ***5.1.1***
 
 
 ### 版本对应
 
 | 分支      | tag        | elasticsearch版本 | Release Link                                                                                  |
 | ---       | ---        | ---               | ---                                                                                           |
-| 6.0.0     | tag v6.0.0 | v6.0.0            | Download: [v6.0.0](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v6.0.0) |
 | 5.4.0     | tag v5.4.0 | v5.4.0            | Download: [v5.4.0](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v5.4.0) |
 | 5.3.0     | tag v5.3.0 | v5.3.0            | Download: [v5.3.0](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v5.3.0) |
 | 5.2.2     | tag v5.2.2 | v5.2.2            | Download: [v5.2.2](https://github.com/sing1ee/elasticsearch-jieba-plugin/releases/tag/v5.2.2) |
@@ -32,13 +26,13 @@ gradle pz
 - copy the zip file to plugin directory
 
 ```shell
-cp build/distributions/elasticsearch-jieba-plugin-${ver}.zip ${path.home}/plugins
+cp build/distributions/elasticsearch-jieba-plugin-5.1.2.zip ${path.home}/plugins
 ```
 - unzip and rm zip file
 
 ```shell
-unzip elasticsearch-jieba-plugin-${ver}.zip
-rm elasticsearch-jieba-plugin-${ver}.zip
+unzip elasticsearch-jieba-plugin-5.1.2.zip
+rm elasticsearch-jieba-plugin-5.1.2.zip
 ```
 - start elasticsearch
 
